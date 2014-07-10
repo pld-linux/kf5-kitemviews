@@ -6,7 +6,7 @@
 Summary:	Set of item views extending the Qt model-view framework
 Name:		kf5-%{orgname}
 Version:	5.0.0
-Release:	0.1
+Release:	0.2
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/frameworks/%{version}/%{orgname}-%{version}.tar.xz
@@ -80,7 +80,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README.md
 %attr(755,root,root) %ghost %{_libdir}/libKF5ItemViews.so.5
-%attr(755,root,root) %ghost %{_libdir}/libKF5ItemViews.so.5.0.0
+%attr(755,root,root) %{_libdir}/libKF5ItemViews.so.5.0.0
 
 %files devel
 %defattr(644,root,root,755)
