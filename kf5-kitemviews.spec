@@ -1,15 +1,15 @@
-%define		kdeframever	5.43
+%define		kdeframever	5.45
 %define		qtver		5.4.0
 %define		kfname		kitemviews
 
 Summary:	Set of item views extending the Qt model-view framework
 Name:		kf5-%{kfname}
-Version:	5.43.0
+Version:	5.45.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	http://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	0212ea41c19ecaf3d8796186a5d7a3d4
+# Source0-md5:	dc06f3e2357bf322b42101c8bec87a9d
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= %{qtver}
